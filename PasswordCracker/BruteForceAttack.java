@@ -17,7 +17,6 @@ public class BruteForceAttack extends Technique {
             String hashValueInString = converterToHex.toString(16);
 
             while (hashValueInString.length() < 40) {
-                System.out.println(hashValueInString);
                 hashValueInString = "0" + hashValueInString;
 
             }
